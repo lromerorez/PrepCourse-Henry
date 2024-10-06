@@ -3,55 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
     <title>Luis Romero</title>
 </head>
 <body>
     <section>
-        <h1>Luis Romero FullStack</h1>
+        <h1>Luis Romero <span>FullStack</span> Developer</h1>
     </section>
-    <section>
+    <section class="nav">
         <a href="#">Inicio</a>
         <a href="#">Servicios</a>
         <a href="#">Contacto</a>
     </section>
-    <section>
-
-        <h2>Diseño de Sitios Web</h2>
-        <p>México, Cd. México</p>
-        <img src="#" alt="cargando...">
-        <button>WhatsApp</button>        
-    </section>
+    
+    <header>
+        <section class="header_center">            
+           
+            <h2>Diseño de Sitios Web</h2>
+            <p>México, Cd. México</p>
+            <button>Más Información</button>        
+        </section>
+    </header>
         
+    
     <main>
-        <h2>Mis Servicios</h2>
-        <section>
-            Diseño Web
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <h2 class="sub-servi">Mis <span>Servicios</span></h2>
+
+        <section id="card-contenedor">
+
+            <section class="card">
+                <h3 class="titlecard">Diseño Web</h3>
+                <img src="/img/notas.png" alt="cargando..." class="icono">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </section>
+            <section class=card>
+                <h3 class="titlecard">Aplicaciones Web</h3>
+                <img src="/img/telefono-movil.png" alt="cargando..." class="icono">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </section>
+            <section class="card">
+                <h3 class="titlecard">E-Commerce</h3>
+                <img src="/img/cajas.png" alt="cargando..." class="icono">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </section>
         </section>
-        <section>
-            Aplicaciones Web
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        </section>
-        <section>
-            E-Commerce
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        </section>
-    </main>
+        </main>
 
     <section>
-        <h2>Caracteristicas Principales de nuestros servicios</h2>
-        <ol>
+        <h2 class="prinServ">Caracteristicas Principales de <span>nuestros servicios</span></h2>
+        
+        <div class="serv">
 
-            <li>Entrega en menos de una semana</li>
-            <ul>
-                <li>El tiempo corre apartir del cumplimiento de entrega del material</li>
-                <li>landing page se entrega en 3 días</li>
-            </ul>
-            <li>Soporte Completo</li>
-            <li>Profesionalismo</li>
-
-
-        </ol>
+            <ol>
+                
+                <li>Entrega en menos de una semana</li>
+                <ul>
+                    <li>El tiempo corre apartir del cumplimiento de entrega del material</li>
+                    <li>landing page se entrega en 3 días</li>
+                </ul>
+                <li>Soporte Completo</li>
+                <li>Profesionalismo</li>
+                
+                
+            </ol>
+        </div>
     </section>
+
+    <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
